@@ -24,7 +24,7 @@ const Hero = () => {
             Hi , I'm <span className="text-blue-600">Qasem Najm</span>
           </h1>
           <p className={`text-2xl mt-2 max-[600px]:text-[15px] text-white-100 font-medium`}>
-            Im Full Stack Developer Specialist <br className="sm:block hidden" />
+            Im Full Stack Developer <br className="sm:block hidden" />
           </p>
 
           <p className={` mt-4 max-[600px]:text-[14px] text-white-100`}>
