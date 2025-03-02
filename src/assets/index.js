@@ -31,6 +31,7 @@ import cpp from "./tech/cpp.png";
 import csharp from "./tech/csharp.png";
 import sql from "./tech/mysql.png";
 import sqlserver from "./tech/sqlserver.png"
+import jwt from './tech/jwt.png'
 import firebase from "./tech/firebase.png";
 
 import word from "./tech/word.png";
@@ -84,5 +85,6 @@ export {
   npm,
   postman,
   expo,
-  bootstrap
+  bootstrap,
+  jwt
 };

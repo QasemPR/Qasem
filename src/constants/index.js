@@ -36,6 +36,7 @@ import {
   postman,
   expo,
   bootstrap,
+  jwt,
 } from "../assets";
 
 export const navLinks = [
@@ -88,6 +89,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "JWT Auth",
+    icon: jwt,
   },
   {
     name: "React Native",
