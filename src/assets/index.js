@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -18,7 +17,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import restapi from './tech/rapidapi.png'
+import restapi from './tech/restapi.png'
 import aws from './tech/aws.png'
 import render from './tech/render.png'
 import bootstrap from './tech/Bootstrap.png'
@@ -33,6 +32,7 @@ import sql from "./tech/mysql.png";
 import sqlserver from "./tech/sqlserver.png"
 import jwt from './tech/jwt.png'
 import firebase from "./tech/firebase.png";
+import express from './tech/expressjs.png'
 
 import word from "./tech/word.png";
 import excel from "./tech/excel.png";
@@ -45,7 +45,6 @@ import Sardam from './company/sardam.png'
 import Tecno from './company/tecno.webp'
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -86,5 +85,6 @@ export {
   postman,
   expo,
   bootstrap,
-  jwt
+  jwt,
+  express
 };

@@ -79,6 +79,18 @@ const services = [
 
 const technologies = [
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "npm",
+    icon: npm,
+  },
+  {
+    name: "JWT Auth",
+    icon: jwt,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -86,14 +98,7 @@ const technologies = [
     name: "Redux",
     icon: redux,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "JWT Auth",
-    icon: jwt,
-  },
+
   {
     name: "React Native",
     icon: reactjs,
@@ -139,11 +144,11 @@ const technologies = [
     icon: csharp,
   },
   {
-    name: "Html",
+    name: "html",
     icon: html,
   },
   {
-    name: "Css",
+    name: "css",
     icon: css,
   },
   {
@@ -161,6 +166,23 @@ const technologies = [
   {
     name: "GitHub",
     icon: github,
+  },
+  {
+    name: "SQL Server",
+    icon: sqlserver,
+  },
+
+  {
+    name: "Rest API",
+    icon: restapi,
+  },
+  {
+    name: "Rapid API",
+    icon: rapid,
+  },
+  {
+    name: "Postman",
+    icon: postman,
   },
   {
     name: "Figma",
@@ -185,39 +207,6 @@ const technologies = [
   {
     name: "Access",
     icon: access,
-  },
-  {
-    name: "SQL Server",
-    icon: sqlserver,
-  },
-
-  {
-    name: "Rest API",
-    icon: restapi,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "Google Cloud",
-    icon: googlecloud,
-  },
-  {
-    name: "Render",
-    icon: render,
-  },
-  {
-    name: "Rapid API",
-    icon: rapid,
-  },
-  {
-    name: "Postman",
-    icon: postman,
-  },
-  {
-    name: "NPM",
-    icon: npm,
   },
 ];
 
