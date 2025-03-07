@@ -37,6 +37,8 @@ import {
   expo,
   bootstrap,
   jwt,
+  docker,
+  cicd
 } from "../assets";
 
 export const navLinks = [
@@ -89,6 +91,14 @@ const technologies = [
   {
     name: "JWT Auth",
     icon: jwt,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "CI/CD",
+    icon: cicd,
   },
   {
     name: "React JS",
@@ -159,6 +169,7 @@ const technologies = [
     name: "Firebase",
     icon: firebase,
   },
+
   {
     name: "Git",
     icon: git,
