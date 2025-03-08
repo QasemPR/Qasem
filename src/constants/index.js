@@ -269,12 +269,12 @@ const experiences = [
     ],
   },
   {
-    title: "IT Supporter & Technical Supporter",
-    company_name: "Bradost PC and Mobile Center",
+    title: "IT Technician",
+    company_name: "Bradost PC/Mobile Center",
     iconBg: "#0070ff",
     date: "Jan 2018 - Jul 2019",
     points: [
-      "Over the past two years, I have worked as an IT Technician, ensuring smooth system operations. My responsibilities included:",
+      "Over the past year, I have worked as an IT Technician, ensuring smooth system operations. My responsibilities included:",
       "Troubleshooting: Diagnosed and resolved hardware, software, and network issues to minimize downtime and improve performance.",
       "System Maintenance: Conducted regular checks, updates, and hardware maintenance to ensure optimal IT infrastructure functionality.",
       "Technical Support: Provided remote and on-site assistance, guiding users on software, devices, and technical tools.",
@@ -286,7 +286,7 @@ const experiences = [
   },
   {
     title: "IT Supporter",
-    company_name: "Sardam Center",
+    company_name: "Sardam",
     iconBg: "#0070ff",
     date: "Jul 2019 - march 2021",
     points: [
