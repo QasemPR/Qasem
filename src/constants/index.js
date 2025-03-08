@@ -21,10 +21,6 @@ import {
   csharp,
   sql,
   firebase,
-  zamin,
-  Tecno,
-  Bradost,
-  Sardam,
   github,
   sqlserver,
   render,
@@ -238,7 +234,6 @@ const experiences = [
     title: "IT Managment , Accountant",
     company_name: "Zamin Company",
     iconBg: "#0070ff",
-    icon: zamin,
     date: "Oct 2024 - Parsent",
     points: [
       "At Zamin Company, I managed Accounting and IT, ensuring financial accuracy and IT efficiency. My responsibilities included:",
@@ -255,7 +250,6 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "TS Software Team",
     iconBg: "#0070ff",
-    icon: Tecno,
     date: "March 2024 - Aug 2024",
     points: [
       "As a Full Stack Developer on the Tecno Speed Software Team, I built and maintained scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). I handled the full development lifecycle, from UI design to back-end and database management.",
@@ -278,7 +272,6 @@ const experiences = [
     title: "IT Supporter & Technical Supporter",
     company_name: "Bradost PC and Mobile Center",
     iconBg: "#0070ff",
-    icon: Bradost,
     date: "Jan 2018 - Jul 2019",
     points: [
       "Over the past two years, I have worked as an IT Technician, ensuring smooth system operations. My responsibilities included:",
@@ -295,7 +288,6 @@ const experiences = [
     title: "IT Supporter",
     company_name: "Sardam Center",
     iconBg: "#0070ff",
-    icon: Sardam,
     date: "Jul 2019 - march 2021",
     points: [
       "With 2 years of experience as an IT Support Specialist, I provided technical assistance and resolved IT-related issues. Key responsibilities included:",

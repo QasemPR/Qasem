@@ -41,23 +41,15 @@ import excel from "./tech/excel.png";
 import access from "./tech/access.png";
 import powerpoint from "./tech/powerpoint.png";
 
-import zamin from './company/zamin.webp'
-import Bradost from './company/B.png'
-import Sardam from './company/sardam.png'
-import Tecno from './company/tecno.webp'
-
 export {
   backend,
   creator,
   mobile,
-  zamin,
   web,
   menu,
   close,
   css,
-  Bradost ,
-  Tecno,
-  Sardam,
+
   figma,
   canva,
   git,
