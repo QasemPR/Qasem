@@ -16,20 +16,14 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{
         background: "#1d788d",
         color: "white",
+        fontSize:15,  
         fontWeight:'bold',
-        borderRadius: 10,
+        borderRadius: 15,
+        borderWidth:3,
+        borderColor:'#1d788d'
       }}
       date={experience.date}
-      icon={
-        <div className="flex justify-center items-center w-full h-full">
-          <img
-          alt=""
-            src={experience.icon}
-            className="w-full h-full object-contain rounded-full"
-          />
-        </div>
-      }
-      iconStyle={{ background: "#fff" }}
+      iconStyle={{ background: "#1d788d"}}
     >
       <div>
         <h3 className="text-white max-[480px]:text-[16px] text-[24px] font-bold">{experience.title}</h3>
