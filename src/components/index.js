@@ -4,7 +4,6 @@ import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import CanvasLoader from "./Loader";
 import Language  from "./Language";
 
 
@@ -16,6 +15,5 @@ export {
   Tech,
   Experience,
   Contact,
-  CanvasLoader,
   Language
 };
