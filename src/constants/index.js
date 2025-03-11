@@ -34,7 +34,6 @@ import {
   bootstrap,
   jwt,
   docker,
-  cicd,
 } from "../assets";
 
 export const navLinks = [
@@ -91,10 +90,6 @@ const technologies = [
   {
     name: "Docker",
     icon: docker,
-  },
-  {
-    name: "CI/CD",
-    icon: cicd,
   },
   {
     name: "React JS",
@@ -219,13 +214,13 @@ const technologies = [
 
 const languages = [
   {
-    name: "کوردی",
+    name: "Kurdish",
   },
   {
     name: "English",
   },
   {
-    name: "العربي",
+    name: "Arabic",
   },
 ];
 

@@ -10,12 +10,12 @@ function Language() {
     
     <div>
       <h1 className="text-center font-bold text-3xl mb-10">Language Skill</h1>
-      <div className="flex flex-row flex-wrap justify-center gap-10 mx-12 py-5 ">
+      <div className="grid place-content-center place-items-center grid-row-3 gap-5 mx-12 py-5 ">
         {languages.map((language) => (
       <Tilt key={language.name}>
           <motion.div
             variants={fadeIn("right", "spring", 0.5, 0.75)}
-            className="w-20 h-12 green-pink-gradient p-[5px] rounded-[10px]"
+            className="w-80 h-12 green-pink-gradient p-[5px] rounded-[10px]"
           >
             <div
               options={{
@@ -25,7 +25,7 @@ function Language() {
               }}
               className="bg-white rounded-[10px] p-2 h-[37px] flex justify-evenly items-center flex-col"
             >
-              <h3 className="text-black text-[14px] font-bold text-center">
+              <h3 className="text-black text-[16px] font-bold text-center" style={{fontFamily:"serif"}}>
                 {language.name}
               </h3>
             </div>
