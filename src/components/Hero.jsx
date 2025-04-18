@@ -28,12 +28,11 @@ const Hero = () => {
           </p>
 
           <p className={` mt-4 max-[600px]:text-[14px] text-white-100`}>
-            and Im an expert in other IT Fileds <br className="sm:block hidden" />
+            And im using  <br className="sm:block hidden" />
           </p>
           <ul style={{ listStyleType: "revert", margin: 20, marginLeft: 60 }} className="max-[600px]:text-[12px]">
-            <li>Graphic Designer</li>
-            <li>Social Media Manager</li>
-            <li>Accountant</li>
+            <li>React + React Native + Vue</li>
+            <li>Node js + Express js + Laravel</li>
           </ul>
         </div>
       </div>

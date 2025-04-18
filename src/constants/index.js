@@ -34,6 +34,7 @@ import {
   bootstrap,
   jwt,
   docker,
+  vue,
 } from "../assets";
 
 export const navLinks = [
@@ -94,6 +95,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Vue JS",
+    icon: vue,
   },
   {
     name: "Redux",
@@ -226,10 +231,27 @@ const languages = [
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "BoMN Company",
+    iconBg: "#0070ff",
+    date: "March 2025 - Parsent",
+    points: [
+      "At BOMN Company, I work as a Full Stack Developer, supporting the development of web applications using the MERN stack.",
+      "Frontend Development: Implementing reusable components and building responsive layouts using React and Tailwind CSS, based on existing designs.",
+      "Backend Development: Creating RESTful APIs and handling server-side logic with Node.js and Express.js.",
+      "Database Management: Managing MongoDB collections, writing queries, and ensuring reliable data storage and retrieval.",
+      "Integration: Connecting frontend and backend parts of the application for smooth data flow.",
+      "Testing & Debugging: Fixing bugs, testing features, and ensuring overall application stability.",
+      "Team Collaboration: Working with backend developers and designers to deliver features that meet project goals.",
+      "Security & Optimization: Applying basic security measures like input validation and optimizing code for better performance.",
+      "I focus on building functional, maintainable applications while improving my skills and contributing to the success of the development team.",
+    ],
+  },
+  {
     title: "IT Managment , Accountant",
     company_name: "Zamin Company",
     iconBg: "#0070ff",
-    date: "Oct 2024 - Parsent",
+    date: "Oct 2024 - March 2025",
     points: [
       "At Zamin Company, I managed Accounting and IT, ensuring financial accuracy and IT efficiency. My responsibilities included:",
       "Financial Operations: Managed budgeting, forecasting, and financial reporting, ensuring compliance and supporting strategic decisions.",
@@ -247,21 +269,19 @@ const experiences = [
     iconBg: "#0070ff",
     date: "March 2024 - Aug 2024",
     points: [
-      "As a Full Stack Developer on the Tecno Speed Software Team, I built and maintained scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). I handled the full development lifecycle, from UI design to back-end and database management.",
-      "Front-End: Developed responsive, dynamic interfaces with React.js, JavaScript (ES7+), and Tailwind CSS, ensuring high performance, accessibility, and cross-browser compatibility.",
-      "Back-End: Built RESTful APIs with Node.js and Express.js, implementing authentication, authorization, and secure data handling.",
-      "Database: Designed MongoDB schemas, optimized queries, and ensured data integrity for scalable applications.",
+      "As an Intermediate Full Stack Developer at Tecno Speed Software, I contributed to building web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Front-End: Built responsive interfaces with React.js and Tailwind CSS to enhance user experience.",
+      "Back-End: Developed simple APIs using Node.js and Express.js for handling core app features.",
+      "Database: Created and managed MongoDB collections with a focus on basic data operations.",
       "Key Responsibilities:",
-      "Full-stack development with React.js, Node.js, and Express.js.",
-      "API development for seamless front-end and back-end communication.",
-      "Database management and performance optimization.",
-      "Implementing JWT-based authentication and secure data practices.",
-      "State management using Redux Toolkit.",
-      "Deployment on AWS/Render and setting up CI/CD pipelines.",
-      "Version control with Git/GitHub.",
-      "Performance optimization for speed and scalability.",
-      "I delivered scalable, secure, and maintainable web applications while collaborating with cross-functional teams.",
+      "Developing and connecting front-end and back-end components.",
+      "Basic API development and integration.",
+      "Using Git/GitHub for source control and teamwork.",
+      "Implementing simple authentication using JWT.",
+      "Collaborating with the team to improve functionality and fix bugs.",
+      "I supported the development team by delivering clean, functional features while improving my full stack skills in real-world projects.",
     ],
+
   },
   {
     title: "IT Technician",
