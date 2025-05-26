@@ -36,7 +36,7 @@ import jwt from './tech/jwt.png'
 import firebase from "./tech/firebase.png";
 import express from './tech/expressjs.png'
 import vue from './tech/vue.png'
-
+import laravel from './tech/laravel.png'
 import word from "./tech/word.png";
 import excel from "./tech/excel.png";
 import access from "./tech/access.png";
