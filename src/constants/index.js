@@ -6,6 +6,7 @@ import {
   html,
   css,
   reactjs,
+  laravel,
   redux,
   tailwind,
   nodejs,
@@ -99,6 +100,10 @@ const technologies = [
   {
     name: "Vue JS",
     icon: vue,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "Redux",
